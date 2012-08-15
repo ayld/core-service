@@ -11,7 +11,7 @@ public interface Assembler<D extends Dto<I>, E extends Entity<I>, I extends Seri
 	
 	public D toDto(E entity);
 	
-	public D toEntity(D Dto);
+	public E toEntity(D dto);
 	
 	public List<D> toDtos(List<E> entities);
 	

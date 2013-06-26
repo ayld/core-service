@@ -47,6 +47,16 @@
 	
 	</dependencies>
 	
+<repositories>
+                <repository>
+                  <id>my.mvn.repo</id>
+                  <url>https://github.com/ayld/mvn-repo/raw/master</url>
+                  <snapshots>
+                     <enabled>true</enabled>
+                      <updatePolicy>always</updatePolicy>
+                   </snapshots>
+                </repository>
+</repositories>
 	<build>
 	   <resources>
             <resource>

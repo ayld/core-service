@@ -7,7 +7,7 @@ import java.util.Set;
 import net.ayld.core.dto.Dto;
 import net.ayld.core.domain.Entity;
 
-public interface Assembler<D extends Dto<I>, E extends Entity<I>, I extends Serializable> extends Serializable{
+public interface Assembler<D extends Dto<I>, E extends Entity<I>, I extends Serializable> {
 	
 	public D toDto(E entity);
 	
